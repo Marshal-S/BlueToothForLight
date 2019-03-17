@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F8CF42222537550034347E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF41222537550034347E /* AppDelegate.m */; };
+		18F8CF45222537550034347E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF44222537550034347E /* ViewController.m */; };
+		18F8CF48222537550034347E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8CF46222537550034347E /* Main.storyboard */; };
+		18F8CF4A222537570034347E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8CF49222537570034347E /* Assets.xcassets */; };
+		18F8CF4D222537570034347E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8CF4B222537570034347E /* LaunchScreen.storyboard */; };
+		18F8CF50222537570034347E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF4F222537570034347E /* main.m */; };
+		18F8CF5A222537570034347E /* OpenLockLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF59222537570034347E /* OpenLockLightTests.m */; };
+		18F8CF65222537570034347E /* OpenLockLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF64222537570034347E /* OpenLockLightUITests.m */; };
+		18F8CF7A2225382B0034347E /* LSBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF772225382A0034347E /* LSBluetooth.m */; };
+		18F8CF87222540830034347E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF7D222540830034347E /* SVRadialGradientLayer.m */; };
+		18F8CF88222540830034347E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF80222540830034347E /* SVProgressAnimatedView.m */; };
+		18F8CF89222540830034347E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF83222540830034347E /* SVProgressHUD.m */; };
+		18F8CF8A222540830034347E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF84222540830034347E /* SVIndefiniteAnimatedView.m */; };
+		18F8CF8B222540830034347E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18F8CF85222540830034347E /* SVProgressHUD.bundle */; };
+		18F8CF8E222543DD0034347E /* BlueToothListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CF8D222543DD0034347E /* BlueToothListController.m */; };
+		18F8CFCF222914890034347E /* BlueToothSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CFCE222914890034347E /* BlueToothSelectModel.m */; };
+		18F8CFD22229180B0034347E /* BlueToothSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CFD12229180B0034347E /* BlueToothSelectCell.m */; };
+		18F8CFDA222927E10034347E /* LSAutoOperateLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CFD9222927E10034347E /* LSAutoOperateLight.m */; };
+		18F8CFDD22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CFDC22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F8CF56222537570034347E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F8CF35222537540034347E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F8CF3C222537550034347E;
+			remoteInfo = OpenLockLight;
+		};
+		18F8CF61222537570034347E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F8CF35222537540034347E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F8CF3C222537550034347E;
+			remoteInfo = OpenLockLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F8CF3D222537550034347E /* OpenLockLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLockLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8CF40222537550034347E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F8CF41222537550034347E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F8CF43222537550034347E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F8CF44222537550034347E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F8CF47222537550034347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F8CF49222537570034347E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F8CF4C222537570034347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F8CF4E222537570034347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8CF4F222537570034347E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F8CF55222537570034347E /* OpenLockLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLockLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8CF59222537570034347E /* OpenLockLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenLockLightTests.m; sourceTree = "<group>"; };
+		18F8CF5B222537570034347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8CF60222537570034347E /* OpenLockLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLockLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8CF64222537570034347E /* OpenLockLightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenLockLightUITests.m; sourceTree = "<group>"; };
+		18F8CF66222537570034347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8CF752225382A0034347E /* LSBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBluetooth.h; sourceTree = "<group>"; };
+		18F8CF772225382A0034347E /* LSBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSBluetooth.m; sourceTree = "<group>"; };
+		18F8CF7D222540830034347E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		18F8CF7E222540830034347E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		18F8CF7F222540830034347E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		18F8CF80222540830034347E /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		18F8CF81222540830034347E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		18F8CF82222540830034347E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		18F8CF83222540830034347E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		18F8CF84222540830034347E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		18F8CF85222540830034347E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		18F8CF86222540830034347E /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		18F8CF8C222543DD0034347E /* BlueToothListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothListController.h; sourceTree = "<group>"; };
+		18F8CF8D222543DD0034347E /* BlueToothListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothListController.m; sourceTree = "<group>"; };
+		18F8CFCD222914890034347E /* BlueToothSelectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothSelectModel.h; sourceTree = "<group>"; };
+		18F8CFCE222914890034347E /* BlueToothSelectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothSelectModel.m; sourceTree = "<group>"; };
+		18F8CFD02229180B0034347E /* BlueToothSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothSelectCell.h; sourceTree = "<group>"; };
+		18F8CFD12229180B0034347E /* BlueToothSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothSelectCell.m; sourceTree = "<group>"; };
+		18F8CFD8222927E10034347E /* LSAutoOperateLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAutoOperateLight.h; sourceTree = "<group>"; };
+		18F8CFD9222927E10034347E /* LSAutoOperateLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAutoOperateLight.m; sourceTree = "<group>"; };
+		18F8CFDB22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+LSExtersionHUD.h"; sourceTree = "<group>"; };
+		18F8CFDC22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+LSExtersionHUD.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F8CF3A222537550034347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF52222537570034347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF5D222537570034347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F8CF34222537540034347E = {
+			isa = PBXGroup;
+			children = (
+				18F8CF3F222537550034347E /* OpenLockLight */,
+				18F8CF58222537570034347E /* OpenLockLightTests */,
+				18F8CF63222537570034347E /* OpenLockLightUITests */,
+				18F8CF3E222537550034347E /* Products */,
+				18F8CFD3222920480034347E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F8CF3E222537550034347E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CF3D222537550034347E /* OpenLockLight.app */,
+				18F8CF55222537570034347E /* OpenLockLightTests.xctest */,
+				18F8CF60222537570034347E /* OpenLockLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F8CF3F222537550034347E /* OpenLockLight */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CF7C222540830034347E /* SVProgressHUD */,
+				18F8CFD7222927790034347E /* BlueSelect */,
+				18F8CF752225382A0034347E /* LSBluetooth.h */,
+				18F8CF772225382A0034347E /* LSBluetooth.m */,
+				18F8CFD8222927E10034347E /* LSAutoOperateLight.h */,
+				18F8CFD9222927E10034347E /* LSAutoOperateLight.m */,
+				18F8CF43222537550034347E /* ViewController.h */,
+				18F8CF44222537550034347E /* ViewController.m */,
+				18F8CF46222537550034347E /* Main.storyboard */,
+				18F8CF40222537550034347E /* AppDelegate.h */,
+				18F8CF41222537550034347E /* AppDelegate.m */,
+				18F8CF49222537570034347E /* Assets.xcassets */,
+				18F8CF4B222537570034347E /* LaunchScreen.storyboard */,
+				18F8CF4E222537570034347E /* Info.plist */,
+				18F8CF4F222537570034347E /* main.m */,
+			);
+			path = OpenLockLight;
+			sourceTree = "<group>";
+		};
+		18F8CF58222537570034347E /* OpenLockLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CF59222537570034347E /* OpenLockLightTests.m */,
+				18F8CF5B222537570034347E /* Info.plist */,
+			);
+			path = OpenLockLightTests;
+			sourceTree = "<group>";
+		};
+		18F8CF63222537570034347E /* OpenLockLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CF64222537570034347E /* OpenLockLightUITests.m */,
+				18F8CF66222537570034347E /* Info.plist */,
+			);
+			path = OpenLockLightUITests;
+			sourceTree = "<group>";
+		};
+		18F8CF7C222540830034347E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CFDB22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.h */,
+				18F8CFDC22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.m */,
+				18F8CF7F222540830034347E /* SVProgressHUD.h */,
+				18F8CF83222540830034347E /* SVProgressHUD.m */,
+				18F8CF82222540830034347E /* SVRadialGradientLayer.h */,
+				18F8CF7D222540830034347E /* SVRadialGradientLayer.m */,
+				18F8CF86222540830034347E /* SVProgressAnimatedView.h */,
+				18F8CF80222540830034347E /* SVProgressAnimatedView.m */,
+				18F8CF7E222540830034347E /* SVIndefiniteAnimatedView.h */,
+				18F8CF84222540830034347E /* SVIndefiniteAnimatedView.m */,
+				18F8CF81222540830034347E /* SVProgressHUD-Prefix.pch */,
+				18F8CF85222540830034347E /* SVProgressHUD.bundle */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		18F8CFD3222920480034347E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F8CFD7222927790034347E /* BlueSelect */ = {
+			isa = PBXGroup;
+			children = (
+				18F8CF8C222543DD0034347E /* BlueToothListController.h */,
+				18F8CF8D222543DD0034347E /* BlueToothListController.m */,
+				18F8CFCD222914890034347E /* BlueToothSelectModel.h */,
+				18F8CFCE222914890034347E /* BlueToothSelectModel.m */,
+				18F8CFD02229180B0034347E /* BlueToothSelectCell.h */,
+				18F8CFD12229180B0034347E /* BlueToothSelectCell.m */,
+			);
+			path = BlueSelect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F8CF3C222537550034347E /* OpenLockLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8CF69222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLight" */;
+			buildPhases = (
+				18F8CF39222537550034347E /* Sources */,
+				18F8CF3A222537550034347E /* Frameworks */,
+				18F8CF3B222537550034347E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenLockLight;
+			productName = OpenLockLight;
+			productReference = 18F8CF3D222537550034347E /* OpenLockLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F8CF54222537570034347E /* OpenLockLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8CF6C222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLightTests" */;
+			buildPhases = (
+				18F8CF51222537570034347E /* Sources */,
+				18F8CF52222537570034347E /* Frameworks */,
+				18F8CF53222537570034347E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F8CF57222537570034347E /* PBXTargetDependency */,
+			);
+			name = OpenLockLightTests;
+			productName = OpenLockLightTests;
+			productReference = 18F8CF55222537570034347E /* OpenLockLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F8CF5F222537570034347E /* OpenLockLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8CF6F222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLightUITests" */;
+			buildPhases = (
+				18F8CF5C222537570034347E /* Sources */,
+				18F8CF5D222537570034347E /* Frameworks */,
+				18F8CF5E222537570034347E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F8CF62222537570034347E /* PBXTargetDependency */,
+			);
+			name = OpenLockLightUITests;
+			productName = OpenLockLightUITests;
+			productReference = 18F8CF60222537570034347E /* OpenLockLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F8CF35222537540034347E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18F8CF3C222537550034347E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					18F8CF54222537570034347E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18F8CF3C222537550034347E;
+					};
+					18F8CF5F222537570034347E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18F8CF3C222537550034347E;
+					};
+				};
+			};
+			buildConfigurationList = 18F8CF38222537540034347E /* Build configuration list for PBXProject "OpenLockLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F8CF34222537540034347E;
+			productRefGroup = 18F8CF3E222537550034347E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F8CF3C222537550034347E /* OpenLockLight */,
+				18F8CF54222537570034347E /* OpenLockLightTests */,
+				18F8CF5F222537570034347E /* OpenLockLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F8CF3B222537550034347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8CF4D222537570034347E /* LaunchScreen.storyboard in Resources */,
+				18F8CF4A222537570034347E /* Assets.xcassets in Resources */,
+				18F8CF48222537550034347E /* Main.storyboard in Resources */,
+				18F8CF8B222540830034347E /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF53222537570034347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF5E222537570034347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F8CF39222537550034347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8CF7A2225382B0034347E /* LSBluetooth.m in Sources */,
+				18F8CF8E222543DD0034347E /* BlueToothListController.m in Sources */,
+				18F8CFCF222914890034347E /* BlueToothSelectModel.m in Sources */,
+				18F8CF45222537550034347E /* ViewController.m in Sources */,
+				18F8CF50222537570034347E /* main.m in Sources */,
+				18F8CFDD22292C1F0034347E /* SVProgressHUD+LSExtersionHUD.m in Sources */,
+				18F8CF8A222540830034347E /* SVIndefiniteAnimatedView.m in Sources */,
+				18F8CF89222540830034347E /* SVProgressHUD.m in Sources */,
+				18F8CF42222537550034347E /* AppDelegate.m in Sources */,
+				18F8CFD22229180B0034347E /* BlueToothSelectCell.m in Sources */,
+				18F8CF87222540830034347E /* SVRadialGradientLayer.m in Sources */,
+				18F8CF88222540830034347E /* SVProgressAnimatedView.m in Sources */,
+				18F8CFDA222927E10034347E /* LSAutoOperateLight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF51222537570034347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8CF5A222537570034347E /* OpenLockLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8CF5C222537570034347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8CF65222537570034347E /* OpenLockLightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F8CF57222537570034347E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F8CF3C222537550034347E /* OpenLockLight */;
+			targetProxy = 18F8CF56222537570034347E /* PBXContainerItemProxy */;
+		};
+		18F8CF62222537570034347E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F8CF3C222537550034347E /* OpenLockLight */;
+			targetProxy = 18F8CF61222537570034347E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F8CF46222537550034347E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8CF47222537550034347E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F8CF4B222537570034347E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8CF4C222537570034347E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F8CF67222537570034347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F8CF68222537570034347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F8CF6A222537570034347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLZ39RHNXL;
+				INFOPLIST_FILE = OpenLockLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F8CF6B222537570034347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLZ39RHNXL;
+				INFOPLIST_FILE = OpenLockLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F8CF6D222537570034347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenLockLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLockLight.app/OpenLockLight";
+			};
+			name = Debug;
+		};
+		18F8CF6E222537570034347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenLockLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLockLight.app/OpenLockLight";
+			};
+			name = Release;
+		};
+		18F8CF70222537570034347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenLockLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenLockLight;
+			};
+			name = Debug;
+		};
+		18F8CF71222537570034347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenLockLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.OpenLockLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenLockLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F8CF38222537540034347E /* Build configuration list for PBXProject "OpenLockLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8CF67222537570034347E /* Debug */,
+				18F8CF68222537570034347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F8CF69222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8CF6A222537570034347E /* Debug */,
+				18F8CF6B222537570034347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F8CF6C222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8CF6D222537570034347E /* Debug */,
+				18F8CF6E222537570034347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F8CF6F222537570034347E /* Build configuration list for PBXNativeTarget "OpenLockLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8CF70222537570034347E /* Debug */,
+				18F8CF71222537570034347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F8CF35222537540034347E /* Project object */;
+}
